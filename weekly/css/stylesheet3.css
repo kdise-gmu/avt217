@@ -1,0 +1,15 @@
+body  {
+  background-color: #1f1f1f; font-family: monospace;
+}
+h2  {
+  border-bottom: 4px double white;
+}
+
+
+h1,h2,h4  {
+  color: #45ff2f;
+}
+h3  {
+  color:white;
+  font-size: 18px;
+}

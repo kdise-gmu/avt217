@@ -1,0 +1,14 @@
+body  {
+  background-color: #39cfea; font-family: monospace;
+}
+h1  {
+  border-bottom: 3px dotted white;
+}
+
+
+h1,h3  {
+  color: white;
+}
+h2,h4  {
+  color: #663399;
+}
