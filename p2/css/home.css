@@ -1,0 +1,111 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End of CSS Reset*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+
+
+body  {font-family: "Arial Black", Gadget, "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;}
+
+/*-----------------------------------------------------------------*/
+
+/* Navigation */
+.logo  {height:115px; float: left; margin: 20px 0px 0px 164px;}
+
+a, a:active, a:link, a:visited, a:hover  {color: black; text-decoration: none !important}
+
+nav {background-color: white; color: black; float: left; height: 164px; width: 500px; font-weight: bold; font-size: 29px; margin-left: 420px;}
+
+h5  {float: left; margin: 72px 0px 0px 0px;}
+h6  {float: left; margin: 72px 0px 0px 290px;}
+/*Navigation End*/
+
+/*-----------------------------------------------------------------*/
+
+/*Middle*/
+.middle {margin: 0px 164px 0px 164px;}
+
+.banner {width: 1111px;}
+
+.seemenu  {background-color: #c00; width: 932px; margin: 20px 86px 20px 86px;}
+h4 { color: white; font-size: 35px; height: 64px; text-align: center; line-height: 64px;}
+
+.foodthumb {width: 256px; margin-right: 26px;}
+
+/*Middle End*/
+
+/*-----------------------------------------------------------------*/
+
+/*VISIT US*/
+.contact {float: left; background-color: #c00; color: white; width: 730px; height: 360px; font-size: 22px; font-family:"Trebuchet MS", Geneva, Arial, Helvetica, sans-serif; margin: 38px 0px 36px 164px; }
+
+p.visit {line-height: 0px; margin-top: 30px; margin-left: 84px;}
+
+h2  {font-family: "Arial Black", Gadget, "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif; font-size: 44px; text-decoration: underline; font-weight: bold; margin-top: 70px; margin-left: 84px;}
+/*VISIT US End*/
+
+/*-----------------------------------------------------------------*/
+
+/*social*/
+.social {float: left; width: 388px; background-color: white; margin: 38px 0px 0px 0px;}
+.facebook {width: 84px; margin: 0px 0px 0px 90px;}
+.instagram {width: 84px; margin: 0px 0px 0px 45px;}
+.youtube {width: 84px; margin: 0px 0px 0px 90px;}
+.twitter {width: 84px; margin: 0px 0px 0px 38px;}
+
+h3  {font-size: 26px; text-align: center; line-height: 150px;}
+/*social End*/
+
+/*-----------------------------------------------------------------*/
+
+footer {float: left; width: 1112px; background-color: #2d2d2d; margin: 0px 0px 0px 164px; height: 72px;}
+small {font-size: 20px; color: white; font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif; margin-left: 16px; line-height: 66px;}
