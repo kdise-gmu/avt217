@@ -1,0 +1,60 @@
+@font-face {
+    font-family: 'yukarimobileregular';
+    src: url('yukarimobil-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'camingocoderegular';
+    src: url('CamingoCode-Regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+
+body  {
+  background-color: #3a3a;
+  color: teal;
+
+}
+
+h1,h2,h3,h4,p,h5,h6 {
+  font-size: 24px;
+}
+
+h1  {
+  font-family: 'yukarimobileregular';
+}
+
+h2  {
+  font-family: 'camingocoderegular'; ;
+}
+
+h3  {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+}
+
+h4  {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 900;
+}
+
+p {
+  font-family: 'Baloo 2', cursive;
+}
+
+h5  {
+    font-family: proxima-nova, sans-serif;
+    font-style: normal;
+    font-weight: 100;
+}
+
+h6  {
+font-family: proxima-nova, sans-serif;
+font-weight: 700;
+font-style: normal;
+}
