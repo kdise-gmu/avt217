@@ -54,19 +54,45 @@ table {
 /*-----------------------------------------------------------------*/
 
 
-body  {font-family: "Arial Black", Gadget, "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;}
+body  {
+	font-family: "Arial Black", Gadget, "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	margin-left: auto; margin-right: auto;
+}
 
 /*-----------------------------------------------------------------*/
 
 /* Navigation */
-.logo  {height:115px; float: left; margin: 20px 0px 0px 164px;}
+.logo  {
+	height:115px;
+	float: left;
+	margin: 20px 0px 0px 164px;
+}
 
-a, a:active, a:link, a:visited, a:hover  {color: black; text-decoration: none !important}
+a, a:active, a:link, a:visited, a:hover  {
+	color: black;
+	text-decoration: none !important
+}
 
-nav {background-color: white; color: black; float: left; height: 164px; width: 500px; font-weight: bold; font-size: 29px; margin-left: 420px;}
+nav {
+	background-color: white;
+	color: black;
+	height: 164px;
+	width: 500px;
+	font-weight: bold;
+	font-size: 29px;
+	margin-left: 420px;
+	position:relative;
+	left: 280px;
+}
 
-h5  {float: left; margin: 72px 0px 0px 0px;}
-h6  {float: left; margin: 72px 0px 0px 290px;}
+h5  {
+	float: left;
+	margin: 72px 0px 0px 0px;
+	border-bottom: 5px solid black;
+}
+h6  {
+	float: left;
+	margin: 72px 0px 0px 290px;}
 /*Navigation End*/
 
 /*-----------------------------------------------------------------*/
@@ -74,38 +100,103 @@ h6  {float: left; margin: 72px 0px 0px 290px;}
 /*Middle*/
 .middle {margin: 0px 164px 0px 164px;}
 
-.banner {width: 1111px;}
+.banner {
+	width: 1111px;
+	position: relative;
+	top: 00px;
+	left: 0px;
+}
 
-.seemenu  {background-color: #c00; width: 932px; margin: 20px 86px 20px 86px;}
-h4 { color: white; font-size: 35px; height: 64px; text-align: center; line-height: 64px;}
+.seemenu  {
+	background-color: #c00;
+	width: 932px;
+	margin: 20px 86px 20px 86px;
+}
 
-.foodthumb {width: 256px; margin-right: 26px;}
+h4 {
+	color: white;
+	font-size: 35px;
+	height: 64px;
+	text-align: center;
+	line-height: 64px;}
+
+.foodthumb {
+	width: 256px;
+	margin-right: 26px;}
 
 /*Middle End*/
 
 /*-----------------------------------------------------------------*/
 
 /*VISIT US*/
-.contact {float: left; background-color: #c00; color: white; width: 730px; height: 360px; font-size: 22px; font-family:"Trebuchet MS", Geneva, Arial, Helvetica, sans-serif; margin: 38px 0px 36px 164px; }
+.contact {
+	float: left;
+	background-color: #c00;
+	color: white;
+	width: 730px;
+	height: 360px;
+	font-size: 22px;
+	font-family:"Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	margin: 38px 0px 36px 164px;
+}
 
-p.visit {line-height: 0px; margin-top: 30px; margin-left: 84px;}
+p.visit {
+	line-height: 0px;
+	margin-top: 30px;
+	margin-left: 84px;
+}
 
-h2  {font-family: "Arial Black", Gadget, "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif; font-size: 44px; text-decoration: underline; font-weight: bold; margin-top: 70px; margin-left: 84px;}
+h2  {
+	font-family: "Arial Black", Gadget, "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	font-size: 44px;
+	text-decoration: underline;
+	font-weight: bold;
+	margin-top: 70px;
+	margin-left: 84px;}
 /*VISIT US End*/
 
 /*-----------------------------------------------------------------*/
 
 /*social*/
-.social {float: left; width: 388px; background-color: white; margin: 38px 0px 0px 0px;}
-.facebook {width: 84px; margin: 0px 0px 0px 90px;}
-.instagram {width: 84px; margin: 0px 0px 0px 45px;}
-.youtube {width: 84px; margin: 0px 0px 0px 90px;}
-.twitter {width: 84px; margin: 0px 0px 0px 38px;}
+.social {
 
-h3  {font-size: 26px; text-align: center; line-height: 150px;}
+	position: relative;
+	left: 916px;
+	top: -380px;
+	width: 370px;
+	background-color: none;
+	margin: 38px 0px 0px 0px;
+}
+
+.facebook {
+
+	width: 84px; margin: 30px 0px 0px 90px;}
+.instagram {width: 84px; margin: 30px 0px 0px 45px;}
+.youtube {width: 84px; margin: 0px 0px 0px 90px;}
+.twitter {width: 84px; margin: 20px 0px 0px 38px;}
+
+h3  {
+	font-size: 26px; text-align: center; line-height: 70px;}
 /*social End*/
 
 /*-----------------------------------------------------------------*/
 
-footer {float: left; width: 1112px; background-color: #2d2d2d; margin: 0px 0px 0px 164px; height: 72px;}
-small {font-size: 20px; color: white; font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif; margin-left: 16px; line-height: 66px;}
+footer {
+	position: relative;
+	top: -280px;
+	width: 1118px;
+	background-color: #2d2d2d;
+	margin: 0px 0px 0px 164px;
+	height: 72px;
+}
+
+small {
+	position: absolute;
+	top: 20px;
+	left: 16px;
+	font-size: 20px;
+	color: white;
+	font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+
+
+}
