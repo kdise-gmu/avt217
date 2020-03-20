@@ -1,0 +1,290 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+/*End of CSS Reset*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+
+body  {
+	font-family: "Arial Black", Gadget, "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+	margin-left: auto; margin-right: auto;
+	max-width: 1112px;
+	margin: auto;
+}
+
+/*-----------------------------------------------------------------*/
+
+/* Navigation */
+.logo  {
+	height:115px;
+	float: left;
+	margin: 20px 0px 0px 0px;
+}
+
+a, a:active, a:link, a:visited, a:hover  {
+	color: black;
+	text-decoration: none !important
+}
+
+nav {
+	background-color: white;
+	color: black;
+	height: 164px;
+	font-weight: bold;
+	font-size: 29px;
+
+}
+
+h5  {
+	float: left;
+	margin-top: 72px;
+	margin-left: 288px;
+}
+h6  {
+	float: left;
+	margin-top: 72px;
+	margin-left: 290px;
+  border-bottom: 5px solid black;
+}
+/*Navigation End*/
+
+/*-----------------------------------------------------------------*/
+
+
+
+/*--------------------------Menu----------------------------------*/
+ul	{
+	font-size: 19px;
+	color: black;
+	width: 540px;
+	height:289px;
+	line-height: 35px;
+	margin-top: 20px;
+
+}
+
+h3	{
+	background-color: #c00;
+	width: 540px;
+	height: 68px;
+	color: white;
+	font-size: 44px;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+}
+span.price	{float: right;
+
+}
+span.priceD1 {
+	position: relative;
+	left: 215px;
+	 }
+span.priceD2 {
+	position: relative;
+	left: 355px;
+	 }
+span.priceD3 {
+	position: relative;
+	left: 345px;
+	 }
+span.priceD4 {
+	position: relative;
+	left: 263px;
+	 }
+	span.priceS1 {
+		position: relative;
+		left: 483px;
+		top: -37px;
+		 }
+
+/*burgers*/
+.menudiv1	{
+	margin-top: 60px;
+	height: 357px;
+}
+
+.burgerimg	{
+	width:540px;
+	margin-right: 30px
+}
+
+h3.h3burgers	{
+position: relative;
+left: 571px;
+top: -359px;
+}
+
+ul.ulburgers	{
+	position: relative;
+	left: 571px;
+	top: -359px;
+}
+
+/*dogs*/
+.menudiv2	{
+	position: relative;
+	top: 84px;
+	height:357px;
+}
+
+.dogsimg	{
+	position: relative;
+	left: 571px;
+	top: -356px;
+}
+
+h3.h3dogs	{
+
+}
+
+ul.uldogs	{
+
+}
+
+/*sandwiches*/
+.menudiv3	{
+	position: relative;
+	top:168px;
+	height: 358px;
+}
+
+.sandwichimg	{
+
+}
+
+h3.h3sandwiches	{
+	position: relative;
+	top: -358px;
+	left: 571px;
+}
+
+ul.ulsandwiches	{
+	position: relative;
+	top: -358px;
+	left: 571px;
+}
+
+h4	{
+	position: relative;
+	top: -438px;
+	left: 571px;
+	width: 540px;
+}
+
+/*toppings*/
+div.toppings	{
+	position: relative;
+	top:228px;
+	height:112px;
+}
+h2	{
+	background-color: #c00;
+	width: 540px;
+	height: 48px;
+	font-size: 26px;
+	color:white;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+
+	position: relative;
+	left: 285px;
+}
+
+p.toppings	{
+	position: relative;
+	top: 14px;
+	left:116px;
+	font-size: 16px;
+	text-align: center;
+	width:880px;
+	line-height: 20px;
+
+}
+
+/*fries*/
+
+div.menudiv4	{
+	position: relative;
+	top: 314px;
+	height: 400px;
+}
+
+.friesimg	{
+	position: relative;
+	left: 571px;
+	top: -444px;
+}
+
+.pfries	{
+	font-size: 19px;
+	color: black;
+	width: 540px;
+	margin-top: 30px;
+}
+
+/*footer*/
+footer{
+	position: relative;
+	top: 400px;
+	background-color: #2d2d2d;
+	width: 1118px;
+	height: 72px;
+	font-size: 20px;
+	color: white;
+	font-family: "Trebuchet MS", Geneva, Arial, Helvetica, sans-serif;
+}
+small	{
+	position: absolute;
+	top: 20px;
+	left: 16px;
+}
