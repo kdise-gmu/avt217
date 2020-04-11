@@ -1,0 +1,40 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+<html lang="en">
+<head>
+    <title>Nivo Slider Demo</title>
+    <link rel="stylesheet" href="themes/default/default.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/light/light.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/dark/dark.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="themes/bar/bar.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/nivo-slider.css" type="text/css" media="screen" />
+    <link rel="stylesheet" href="css/style.css" type="text/css" media="screen" />
+</head>
+<body>
+    <div id="wrapper">
+        <a href="http://dev7studios.com" id="dev7link" title="Go to dev7studios">dev7studios</a>
+
+        <div class="slider-wrapper theme-default">
+            <div id="slider" class="nivoSlider">
+                <img src="images/chaos(2020).jpg" data-thumb="images/thumbs/chaos.jpg"/>
+                <img src="images/character-design-assignment(2018).jpg" data-thumb="images/thumbs/chardesignthumb.jpg"/>
+                <img src="images/JPDanceRecitalPoster(2017).jpg" data-thumb="images/thumbs/danceposter-thumb2.jpg"/>
+                <img src="images/type-terminal.jpg" data-thumb="images/thumbs/gobletposterthumb2.jpg"/>
+                <img src="images/hellraisers(2019).jpg" data-thumb="images/thumbs/hellraisersthumb.jpg"/>
+                <img src="images/LogoforHKP(2018).jpg" data-thumb="images/thumbs/HKPthumb.jpg"/>
+            </div>
+            <div id="htmlcaption" class="nivo-html-caption">
+                <strong>This</strong> is an example of a <em>HTML</em> caption with <a href="#">a link</a>.
+            </div>
+        </div>
+
+    </div>
+    <script type="text/javascript" src="js/jquery-1.9.0.min.js"></script>
+    <script type="text/javascript" src="js/jquery.nivo.slider.js"></script>
+    <script type="text/javascript">
+    $(window).load(function() {
+        $('#slider').nivoSlider();
+    });
+    </script>
+</body>
+</html>
