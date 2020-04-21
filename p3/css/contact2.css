@@ -1,0 +1,162 @@
+/* http://meyerweb.com/eric/tools/css/reset/
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+ margin: 0;
+ padding: 0;
+ border: 0;
+ font-size: 100%;
+ font: inherit;
+ vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure,
+footer, header, hgroup, menu, nav, section {
+ display: block;
+}
+body {
+ line-height: 1;
+}
+ol, ul {
+ list-style: none;
+}
+blockquote, q {
+ quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+ content: '';
+ content: none;
+}
+table {
+ border-collapse: collapse;
+ border-spacing: 0;
+}
+/*End of CSS Reset*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+/*-----------------------------------------------------------------*/
+
+html{
+  box-sizing: border-box;
+}
+*, *:before, *:after  {
+  box-sizing: inherit;
+}
+
+body  {
+  max-width:1000px;
+  margin: auto;
+  font-family: proxima-nova, sans-serif;
+  margin-top: 20px;
+
+}
+
+
+/*---------------------- Header ----------------------*/
+.header{
+  display: flex;
+  flex-direction: row;
+  background-color: none;
+  align-items: center;
+  width: 980px;
+}
+
+/*
+.flexbox-item {
+border: 2px solid blue;
+}
+*/
+
+img.logo {
+  width:160px;
+  color: #11b9fc;
+  margin-right: 32px
+}
+
+/*kyle d design*/
+h1  {
+  font-family: all-round-gothic, sans-serif;
+  font-size: 38px;
+  font-weight: 600;
+  text-align: center;
+}
+
+/*about, portfolio*/
+h2  {
+  font-family: all-round-gothic, sans-serif;
+  font-size: 30px;
+  font-weight: 700px;
+
+  text-align: center;
+  margin: auto 20px auto 40px;
+}
+
+/*contact*/
+h4{
+  color:white;
+  background-color: #11b9fc;
+  font-family: all-round-gothic, sans-serif;
+  font-size: 30px;
+  font-weight: 700px;
+  width: 170px;
+  height: 56px;
+  text-align: center;
+  line-height:1.6;
+}
+
+/*---------------------- Header end ----------------------*/
+
+.wrapper {
+  display: flex;
+  flex-direction: row;
+  background-color: none;
+  align-items:
+}
+
+
+/*"contact me"*/
+h3  {
+  font-family: all-round-gothic, sans-serif;
+  font-size: 30px;
+  font-weight: 700px;
+  width: 224px;
+  height: 54px;
+  background-color: #11b9fc;
+  color: white;
+  clear: both;
+  margin: 106px auto auto 96px;
+}
+
+/*bold text*/
+span  {
+    font-weight: bold;
+}
+
+/*body text*/
+p {
+  font-size: 28px;
+  margin:50px auto auto 96px;
+}
+
+/*image*/
+img.page-graphic  {
+  width:350px;
+  margin: 40px auto auto 78px;
+}
