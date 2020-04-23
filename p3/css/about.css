@@ -75,14 +75,10 @@ body  {
   flex-direction: row;
   background-color: none;
   align-items: center;
-  width: 980px;
+  max-width: 980px;
+  min-width: 320px;
 }
 
-/*
-.flexbox-item {
-border: 3px solid blue;
-}
-*/
 
 img.logo {
   width:160px;
@@ -129,3 +125,117 @@ a{
 }
 
 /*---------------------- Header end ----------------------*/
+
+/*-------subheads------*/
+h3  {
+  color:white;
+  background-color: #11b9fc;
+  font-family: all-round-gothic, sans-serif;
+  font-size: 28px;
+  font-weight: 700px;
+  height: 56px;
+  text-align: center;
+  line-height:2;
+}
+
+/*blue heading*/
+h3.work{
+    width: 260px;
+    margin-top: 54px;
+}
+
+/*blue heading*/
+h3.edu {
+  width: 170px;
+  margin-top: 36px;
+  margin-bottom: 12px;
+}
+
+/*blue heading*/
+h3.skills {
+  width: 100px;
+}
+
+/*-------body text------*/
+
+
+p, ul {
+  font-size: 18px;
+  line-height: 120%;
+}
+
+i {
+  font-style: italic;
+}
+
+b, h4 {
+  font-weight: 700;
+  line-height: 120%;
+  margin-top: 24px;
+}
+h4  {
+    font-size: 20px;
+
+}
+
+span.jobhead {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+
+}
+
+/*---layout stuff---*/
+
+body  {
+  display: flex;
+  flex-direction: row;
+}
+
+/*
+div.column-1, div.column-2 {
+  outline: 3px solid blue;
+}
+*/
+
+div.column-1 {
+  width: 500px;
+  float: left;
+}
+
+
+div.column-2 {
+  width: 475px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/*----column-2 contents---*/
+img.illustration {
+  width:400px;
+
+}
+
+h3.skills {
+
+  margin-top: 20px;
+  margin-bottom: 10px;
+
+    margin-left: auto;
+    margin-right: auto;
+}
+h4.software {
+  text-align: center;
+  margin-bottom: 4px;
+}
+
+ul {
+  margin-left: 25px;
+  width: 250px;
+  list-style-type: disc;
+  list-style-position: inside;
+  line-height: 140%
+}
