@@ -144,4 +144,5 @@ a{
 .portfolio-work {
   width: 290px;
   margin-top: 0px;
+  border: 10px double #11b9fc;
 }
